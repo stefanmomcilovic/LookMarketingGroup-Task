@@ -1,0 +1,90 @@
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.container-funnel {
+    border: 2px solid rgb(128, 130, 133);
+    border-radius: 20px;
+}
+
+.video-thumbnail{
+    box-shadow: 0px 0px 5px 0px #000;
+    border-radius: 20px;
+}
+
+.font-12x {
+    font-size: 12px !important;
+}
+
+.font-28x {
+    font-size: 28px !important;
+}
+
+.font-16x {
+    font-size: 16px !important;
+}
+
+.font-22x {
+    font-size: 22px !important;
+}
+
+.p-5x {
+    padding: 5px !important;
+}
+
+.p-15 {
+    padding: 15px !important;
+}
+
+.p-20 {
+    padding: 20px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.mt-20em {
+    margin-top: 20em !important;
+}
+
+.btn-success {
+    background-color: #34932D !important;
+}
+
+.w-500 {
+    width: 500px !important;
+}
+
+.border-radius-20 {
+    border-radius: 20px !important;
+}
+
+.box-shadow-default {
+    box-shadow: 0px 0px 5px 0px #000 !important;
+}
+
+footer {
+    color: rgb(112, 112, 112) !important;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+@media(max-width: 768px) {
+    .container-funnel {
+        padding: 5px !important;
+    }
+
+    button.btn.btn-success {
+        width: 80% !important;
+    }
+
+    button.btn.btn-success > span.mx-5 {
+        margin: 0 !important;
+    }
+}
